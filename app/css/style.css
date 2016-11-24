@@ -1,0 +1,144 @@
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif !important;
+    font-size: 13px;
+    color: #33495f;
+    background: #eaedf1 !important;
+    -webkit-print-color-adjust: exact;
+}
+
+.navbar h3:hover {
+    color: #0ba1b5;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #52b848;
+    height: 80px;
+}
+
+.navbar-inverse {
+    border-color: #eaedf1
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #ecf0f1;
+    border: 1px solid #d7e0e2;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.well :hover {
+    border-color: #52b848;
+    cursor: pointer;
+}
+
+.dragandrophandler {
+    border: 2px dashed #92AAB0;
+    width: 650px;
+    height: 200px;
+    color: #92AAB0;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 0px 10px 10px;
+    font-size: 200%;
+    display: table-cell;
+}
+
+.margin-top-05 {
+    margin-top: 0.5em;
+}
+
+.margin-top-10 {
+    margin-top: 1.0em;
+}
+
+.margin-top-15 {
+    margin-top: 1.5em;
+}
+
+.margin-top-20 {
+    margin-top: 2.0em;
+}
+
+.margin-top-25 {
+    margin-top: 2.5em;
+}
+
+.margin-top-30 {
+    margin-top: 3.0em;
+}
+
+
+/*
+Application css
+*/
+
+.progressBar {
+    width: 200px;
+    height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0px 10px 5px 5px;
+    vertical-align: top;
+}
+
+.progressBar div {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    line-height: 22px;
+    /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #0ba1b5;
+    border-radius: 3px;
+}
+
+.statusbar {
+    border-top: 1px solid #A9CCD1;
+    min-height: auto;
+    width: auto;
+    padding: 10px 10px 0px 10px;
+    vertical-align: top;
+}
+
+.statusbar:nth-child(odd) {
+    background: #EBEFF0;
+}
+
+.filename {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+}
+
+.filesize {
+    display: inline-block;
+    vertical-align: top;
+    color: #30693D;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.abort {
+    background-color: #A8352F;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #fff;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 4px 15px;
+    cursor: pointer;
+    vertical-align: top
+}

@@ -1,0 +1,22 @@
+{
+  "name": "generadordegalerias",
+  "description": "Generador de Galerias de Eventos",
+  "main": "index.js",
+  "authors": [
+    "Delcio Polanco"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "BHDLeon",
+    "Galerias"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
